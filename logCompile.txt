@@ -1,0 +1,126 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x2a (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x1180
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x311c
+entry 0x403c88b8
+[    20][I][esp32-hal-psram.c:104] psramAddToHeap(): PSRAM added to the heap.
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32-S3
+  Package           : 0
+  Revision          : 0.02
+  Cores             : 2
+  CPU Frequency     : 240 MHz
+  XTAL Frequency    : 40 MHz
+  Features Bitfield : 0x00000012
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : Yes
+  Classic BT        : No
+  BT Low Energy     : Yes
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   347012 B ( 338.9 KB)
+  Free Bytes        :   292244 B ( 285.4 KB)
+  Allocated Bytes   :    49512 B (  48.4 KB)
+  Minimum Free Bytes:   287096 B ( 280.4 KB)
+  Largest Free Block:   225268 B ( 220.0 KB)
+------------------------------------------
+SPIRAM Memory Info:
+------------------------------------------
+  Total Size        :  8388608 B (8192.0 KB)
+  Free Bytes        :  8386296 B (8189.7 KB)
+  Allocated Bytes   :        0 B (   0.0 KB)
+  Minimum Free Bytes:  8386296 B (8189.7 KB)
+  Largest Free Block:  8257524 B (8064.0 KB)
+  Bus Mode          : QSPI
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         : 16777216 B (16 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 80 MHz
+  Bus Mode          : QIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    20.0 KB, type: DATA, subtype: NVS
+            otadata : addr: 0x0000E000, size:     8.0 KB, type: DATA, subtype: OTA
+               app0 : addr: 0x00010000, size:  3072.0 KB, type:  APP, subtype: OTA_0
+               app1 : addr: 0x00310000, size:  3072.0 KB, type:  APP, subtype: OTA_1
+             spiffs : addr: 0x00610000, size: 10048.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x00FE0000, size:   128.0 KB, type: DATA, subtype: COREDUMP
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : Aug 24 2025 21:11:16
+  ESP-IDF Version   : 5.5.0
+  Arduino Version   : 3.3.0
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : Espressif ESP32-S3-DevKitC-1-N8 (8 MB QD, No PSRAM)
+  Arduino Variant   : esp32s3
+  Core Debug Level  : 4
+  Arduino Runs Core : 1
+  Arduino Events on : 1
+  Arduino USB Mode  : 1
+  CDC On Boot       : 0
+============ Before Setup End ============
+
+
+----------------------------------
+ESP32 Chip: ESP32-S3
+Arduino Version: 3.3.0
+ESP-IDF Version: 5.5.0
+ARDUINO_LOOP_STACK_SIZE 24576 words (32 bit)
+----------------------------------
+
+
+info: audioI2S Version 3.4.2a
+info: inputBufferSize: 655349 bytes
+LOGD: Audio.cpp:302: buffers freed, free Heap: 207972 bytes
+info: connect to: "live.m6radio.quortex.io" on port 443 path "/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl/202/audio-64000/index.m3u8"
+[  2082][D][NetworkManager.cpp:83] hostByName(): Clearing DNS cache
+[  3965][D][NetworkManager.cpp:127] hostByName(): DNS found IPv4 18.155.129.14
+[  4280][D][ssl_client.cpp:196] start_ssl_client(): WARNING: Skipping SSL Verification. INSECURE!
+info: SSL has been established in 2471 ms
+lasthost: https://live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl/202/audio-64000/index.m3u8
+=========== After Setup Start ============
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   347012 B ( 338.9 KB)
+  Free Bytes        :   164520 B ( 160.7 KB)
+  Allocated Bytes   :   173404 B ( 169.3 KB)
+  Minimum Free Bytes:   160436 B ( 156.7 KB)
+  Largest Free Block:   120820 B ( 118.0 KB)
+------------------------------------------
+SPIRAM Memory Info:
+------------------------------------------
+  Total Size        :  8388608 B (8192.0 KB)
+  Free Bytes        :  7523000 B (7346.7 KB)
+  Allocated Bytes   :   862288 B ( 842.1 KB)
+  Minimum Free Bytes:  7517320 B (7341.1 KB)
+  Largest Free Block:  7471092 B (7296.0 KB)
+------------------------------------------
+GPIO Info:
+------------------------------------------
+  GPIO : BUS_TYPE[bus/unit][chan]
+  --------------------------------------
+    43 : UART_TX[0]
+    44 : UART_RX[0]
+============ After Setup End =============
+info: redirect to new host "https://hls.rtl.fr/OWE0ODMxZjYzMWRlNzEzNTI5ZmY5YTNiMTU5YzQ4ZjYuMTc1NjA5NTQzNg~~/radio/webOU6MESMYnoHzvZJe8ie5Mi/webradio/les-grosses-tetes/short/index.m3u8"
+info: next URL: "https://hls.rtl.fr/OWE0ODMxZjYzMWRlNzEzNTI5ZmY5YTNiMTU5YzQ4ZjYuMTc1NjA5NTQzNg~~/radio/webOU6MESMYnoHzvZJe8ie5Mi/webradio/les-grosses-tetes/short/index.m3u8"
+[  4707][D][NetworkManager.cpp:127] hostByName(): DNS found IPv4 18.245.187.117
+[  4735][D][ssl_client.cpp:196] start_ssl_client(): WARNING: Skipping SSL Verification. INSECURE!
+LOGD: Audio.cpp:783: playlistFormat M3U8, dataMode HTTP_RESPONSE_HEADER, streamType: WEBSTREAM
